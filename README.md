@@ -33,6 +33,4 @@ To get started with the FitApp, follow these steps:
 - Google Play Services
 - Google Fit API
 
-## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
