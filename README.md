@@ -1,27 +1,38 @@
+# FitApp
 
-FitApp
+FitApp is an Android application that demonstrates how to use the Google Fit API to track and display daily, weekly, and monthly step counts.
 
-Overview:
+## Features
 
-This Android application uses the Google Fit platform to record the steps taken by a user and display the daily, weekly, and monthly step count. The application combines the Recording API and History API to record steps and authenticate a user with Google Play Services.
+- Subscribes to the Google Fit Recording API to record step counts.
+- Retrieves and displays the daily, weekly, and monthly step counts.
+- Requires user authentication with Google Play Services.
 
-Usage:
+## Getting Started
 
-The user can launch the Step Counter application and view the daily, weekly and monthly step count on the main screen. The step count is automatically updated and displayed on the screen.
+To get started with the FitApp, follow these steps:
 
-Technical Details:
+1. Clone the repository or download the source code.
+2. Open the project in Android Studio.
+3. Build and run the app on an Android device or emulator.
 
-The Step Counter Android application is developed using Java programming language and Android Studio development environment. The application uses the following APIs and libraries:
+## Usage
 
-Google Fitness API:
+1. Launch the FitApp on your Android device.
+2. If you haven't granted the necessary permissions, the app will request authorization to access the Google Fit API. Follow the on-screen instructions to grant the permissions.
+3. Once authorized, the app will subscribe to the Google Fit Recording API and start recording step counts.
+4. Press the "Get Step Counts" button to retrieve and display the daily, weekly, and monthly step counts.
 
- The Google Fitness API is used to access the Recording API and History API to record the step count and read the daily, weekly, and monthly step count.
+## Error Handling
 
-Google Sign-In API: 
+- If there is a problem subscribing to the Google Fit Recording API, an error message will be displayed.
+- If there is an issue retrieving the step counts, an error message will be shown.
 
-The Google Sign-In API is used to authenticate the user with Google Play Services to access the Google Fitness API.
+## Dependencies
 
-Android Support Library:
+- Google Play Services
+- Google Fit API
 
-The Android Support Library is used to support backward compatibility with older versions of Android operating system.
+## License
 
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
